@@ -25,7 +25,6 @@ func (s ParcelStore) Add(p Parcel) (int, error) {
 		return 0, err
 	}
 	return int(id), nil
-
 }
 
 func (s ParcelStore) Get(number int) (Parcel, error) {
